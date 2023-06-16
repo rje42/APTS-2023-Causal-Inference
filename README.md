@@ -1,15 +1,9 @@
-# DataTrainCausalLearning
-Practicals for the Data Train Course "Causal learning" 2021 (V Didelez)
+# APTS 2023 - Causal Inference
+Practicals for the APTS Course "Causal Inference" 2023, with Vanessa Didelez and Robin Evans
 
 ## Installation
-Install the package `devtools` from CRAN. If you are not using the RStudio Server, make sure that Rtools40 is installed on your computer. Then run the following commands:
+Install the package `devtools` from CRAN. 
 
 ```R
-devtools::install_github("bips-hb/DataTrainCausalLearning", build_vignettes = TRUE)
-
-# update all packages (takes ~ 10 minutes on the RStudio Server)
-# building the vignettes will aso take a while....
-
-library(DataTrainCausalLearning)
-install_the_rest()              # this takes again a few minutes
+devtools::install_github("rje42/APTS-2023-Causal-Inference", build_vignettes = TRUE)
 ```
